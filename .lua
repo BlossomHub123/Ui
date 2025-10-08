@@ -1091,7 +1091,7 @@ function FlurioreLib:MakeGui(GuiConfig)
 			UIListLayout2.Padding = UDim.new(0, 3)
 			UIListLayout2.SortOrder = Enum.SortOrder.LayoutOrder
 			UIListLayout2.Parent = SectionAdd
-			local OpenSection = true
+			local OpenSection = false
 			local function UpdateSizeScroll()
 				local OffsetY = 0
 				for _, child in ScrolLayers:GetChildren() do
