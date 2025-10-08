@@ -1585,7 +1585,7 @@ function FlurioreLib:MakeGui(GuiConfig)
 				end)
 
 				SliderInput.AnchorPoint = Vector2.new(0, 0.5)
-				SliderInput.BackgroundColor3 = GuiConfig.Color
+				SliderInput.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
 				SliderInput.BorderColor3 = Color3.fromRGB(0, 0, 0)
 				SliderInput.BorderSizePixel = 0
 				SliderInput.Position = UDim2.new(1, -155, 0.5, 0)
